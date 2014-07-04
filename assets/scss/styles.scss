@@ -459,8 +459,8 @@ ul.default {
 .sale-one {
 	@include span-columns(12);
 	@include mq(tablet) {
-		@include span-columns(4);
-		@include shift(4);
+		@include span-columns(6);
+		@include shift(3);
 	}
 }
 
