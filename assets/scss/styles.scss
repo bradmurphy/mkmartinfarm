@@ -731,6 +731,7 @@ menu {
 		}
 		&:focus {
 			outline: none;
+			background: transparent !important;
 		}
 	}
 }

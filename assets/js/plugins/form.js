@@ -30,7 +30,7 @@ $(document).ready(function(){
 					$('#mail_success').fadeIn(500);
 				} else {
 					$('#mail_fail').fadeIn(500);
-					$('#send_message').removeAttr('disabled').attr('value', 'Send Message');
+					
 				}
 			});
 		}
