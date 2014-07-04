@@ -513,6 +513,17 @@ ul.default {
 				font-size: 1.5em
 			}
 		}
+		.sold {
+			float: left;
+			width: 100%;
+			font-family: $cabin;
+			color: $brightRed;
+			font-size: 1.25em;
+			text-align: center;
+			@include mq(tablet) {
+				font-size: 1.5em
+			}
+		}
 	}
 }
 
