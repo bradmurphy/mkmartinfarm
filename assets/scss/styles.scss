@@ -158,12 +158,12 @@ header.headroom {
 		@include transition(all .5s ease-in-out);
 		li:nth-child(1) {
 			a {
-				@include border-top-radius(10px);
+				@include border-top-radius($base-border-radius);
 			}
 		}
 		li:nth-child(6) {
 			a {
-				@include border-bottom-radius(10px);
+				@include border-bottom-radius($base-border-radius);
 			}
 		}
 		li {
