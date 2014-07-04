@@ -29,6 +29,7 @@ function init() {
 
 	$(".hero").flicker({
 		arrows: true,
+		auto_flick_delay: 15,
 		auto_flick: true,
 		theme: 'light'
 	});
