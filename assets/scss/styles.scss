@@ -451,8 +451,10 @@ ul.default {
 
 .sale-half {
 	@include span-columns(12);
+	padding-bottom: 20px;
 	@include mq(tablet) {
 		@include span-columns(6);
+		padding-bottom: 40px;
 	}
 }
 
@@ -464,12 +466,15 @@ ul.default {
 	}
 }
 
-.sale-half, .sale-one {
+.sale-wrap {
 	padding: 40px 0;
+}
+
+.sale-half, .sale-one {
 	.gallery div a img {
 		width: 300px;
 		border: 1px solid $charcoal;
-		@include mq(android) {
+		@include mq(iphone) {
 			position: relative;
 			left: 50%;
 			margin-left: -150px;
@@ -478,7 +483,9 @@ ul.default {
 	.sale-info {
 		float: left;
 		width: 100%;
-		padding: 20px 0;
+		@include mq(tablet) {
+			padding: 20px 0 0 0;
+		}
 		.goat-name {
 			float: left;
 			width: 100%;
