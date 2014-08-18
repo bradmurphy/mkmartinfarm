@@ -678,6 +678,23 @@ ul.default {
 
 // CONTACT FORM
 
+
+p.phone {
+	float: left;
+	font-family: $cabin;
+	font-weight: 600;
+	font-size: 1em;
+	color: $charcoal;
+	text-align: center;
+	width: 100%;
+	span {
+		color: $pumpkin;
+	}
+	@include mq(tablet) {
+		font-size: 1.25em;
+	}
+}
+
 #contact_form {
 	float: left;
 	padding: 40px 0;
@@ -688,7 +705,7 @@ ul.default {
 	}
 	.details-breakout div {
 		select, input, textarea {
-			border: 1px solid $pumpkin;
+			border: 2px solid $pumpkin;
 			font-family: $cabin;
 			font-weight: 600;
 			outline: none;
@@ -717,10 +734,9 @@ ul.default {
 		border: solid 2px $pumpkin;
 		color: $pumpkin;
 		font-family: $cabin;
-		width: 150px;
 		position: relative;
 		left: 50%;
-		margin-left: -75px;
+		margin-left: -84px;
 		text-transform: uppercase;
 		text-align: center;
 		font-family: $cabin;
@@ -740,7 +756,7 @@ ul.default {
 }
 
 select, input, textarea { 
-	border:solid 1px $pumpkin;
+	border:solid 2px $pumpkin;
 	border-radius: $base-border-radius;
 	@include transition(all .3s ease-in-out);
 }

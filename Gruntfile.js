@@ -79,7 +79,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 
-  grunt.registerTask('build', ['concat', 'uglify', 'sass', 'imagemin']);
+  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'imagemin']);
   grunt.registerTask('dev', ['watch', 'concat']);
 
 }
