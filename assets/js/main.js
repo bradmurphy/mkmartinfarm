@@ -5,14 +5,6 @@ function init() {
 
 	var navStatus = 0;
 
-	// HEAD ROOM
-
-	var header = document.querySelector("header");
-	
-	var headroom  = new Headroom(header);
-
-	headroom.init(); 
-
 	// RESPONSIVE MENU
 
 	$("#nav-icon").click(function() {
@@ -87,7 +79,10 @@ function init() {
     $(".gallery-wrap").mixItUp({
     	layout: {
     		display: 'list-item'
-    	}
+    	},
+    	selectors: {
+    			target: 'ul'
+    		}
     });
 
 };

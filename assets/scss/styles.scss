@@ -320,7 +320,7 @@ h4 {
 	border: solid 2px $pumpkin;
 	border-radius: $base-border-radius;
 	@include mq(tablet) {
-		margin-top: 100px;
+		margin-top: -85px;
 		padding: 40px 20px;
 	}
 }
